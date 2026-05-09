@@ -1,0 +1,132 @@
+body {
+	background-color: #282829;
+	font-family: sans-serif;
+}
+
+body h2 {
+	font-size: 18px;
+}
+
+body h3 {
+	font-size: 16px;
+}
+
+/* ensures selected tags never have mismatched font styles due to inheritance issues */
+button, input, select {
+	font: inherit;
+}
+
+form {
+	display: contents;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	width: 300px;
+	box-sizing: border-box;
+}
+
+.header {
+	color: #FFFFFA;
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+	align-items: center;
+}
+
+.card {
+	background-color: #FFFFFA;
+	border-radius: 10px;
+	width: 100%;
+	max-width: 800px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.submit-button {
+	background-color: #FFFFFA;
+	border-radius: 10px;
+	width: 100%;
+	max-width: 800px;
+	cursor: pointer;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.submit-button:hover {
+	background-color: #f0f0eb;
+}
+
+.banner {
+	width: 100%;
+	background-color: #FFFFFA;
+	color: rgb(173, 1, 1);
+	text-align: center;
+	padding: 10px 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+.provider-row {
+	display: flex;
+	align-items: center;
+	justify-self: space-between;
+	padding: 5px 0;
+	gap: 20px;
+	border-bottom: 1px solid #282829;
+}
+
+.provider-row:last-child {
+	border-bottom: none;
+}
+
+.redirect-line {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #FFFFFA;
+	gap: 5px;
+	width: 100%;
+	max-width: 800px;
+	margin: 10px auto auto auto;
+}
+
+.redirect-line button {
+	background: none;
+	border: none;
+	text-decoration: underline;
+	cursor: pointer;
+	color: #FFFFFA;
+	padding: 0;
+}
+
+.nav-bar {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	color: #FFFFFA;
+	gap: 15px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0px 20px;
+}
+
+.nav-bar button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: #FFFFFA;
+	padding: 0;
+}
+
+.nav-bar button:hover {
+	color: #d30404;
+}
